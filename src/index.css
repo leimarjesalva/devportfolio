@@ -115,12 +115,16 @@ body::before {
 }
 
 /* Input focus */
+.ink-input {
+  color: var(--ink);
+}
 .ink-input:focus {
   background: var(--ink);
   color: var(--paper);
   outline: none;
 }
 .ink-input::placeholder {
+  color: var(--ink);
   opacity: 0.32;
 }
 

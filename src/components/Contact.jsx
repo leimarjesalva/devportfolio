@@ -66,7 +66,7 @@ export default function Contact() {
       <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col justify-center gap-3 px-6 py-10 md:px-10 md:py-14">
         <input
           className="ink-input w-full border-2 bg-transparent px-4 py-3 font-elite text-[.88rem] transition-all"
-          style={{ borderColor: 'var(--ink)', color: 'var(--ink)' }}
+          style={{ borderColor: 'var(--ink)' }}
           type="text"
           name="from_name"
           placeholder="Your name"
@@ -74,7 +74,7 @@ export default function Contact() {
         />
         <input
           className="ink-input w-full border-2 bg-transparent px-4 py-3 font-elite text-[.88rem] transition-all"
-          style={{ borderColor: 'var(--ink)', color: 'var(--ink)' }}
+          style={{ borderColor: 'var(--ink)' }}
           type="email"
           name="reply_to"
           placeholder="Your email"
@@ -82,14 +82,14 @@ export default function Contact() {
         />
         <input
           className="ink-input w-full border-2 bg-transparent px-4 py-3 font-elite text-[.88rem] transition-all"
-          style={{ borderColor: 'var(--ink)', color: 'var(--ink)' }}
+          style={{ borderColor: 'var(--ink)' }}
           type="text"
           name="subject"
           placeholder="Subject"
         />
         <textarea
           className="ink-input w-full border-2 bg-transparent px-4 py-3 font-elite text-[.88rem] transition-all resize-none"
-          style={{ borderColor: 'var(--ink)', color: 'var(--ink)' }}
+          style={{ borderColor: 'var(--ink)' }}
           rows={4}
           name="message"
           placeholder="Tell the story..."
